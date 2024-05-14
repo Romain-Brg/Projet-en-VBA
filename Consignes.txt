@@ -1,0 +1,46 @@
+Projet : Gestion de données sportives
+
+1 – Introduction
+
+À l’aide d’Excel et du VBA, vous allez créer un mini-logiciel de gestion d’activités. Le TP dure entre 4 et
+8h de travail personnel. Il vous sera demandé de rendre le fichier Excel répondant au cahier des
+charges.
+
+2 – Cahiers des charges
+
+	2.1 – Gestion des activités sportives
+		A - Un sport est définie par son nom, un critère à choisir entre une distance, un effort mesurable, un
+		objectif en terme minimal de pratique, un texte explicatif. Deux sports ne peuvent pas avoir le même
+		nom.
+		B - Le logiciel doit permettre de créer un nouveau sport. Il sera nécessaire de vérifier qu’un sport de
+		même nom n’existe pas déjà.
+		C – Le logiciel doit permettre de visualiser la liste des sessions d’un sport.
+		D - Le logiciel doit permettre de supprimer un sport existant.
+
+	2.2 – Gestion des sessions
+		A - Le logiciel doit permettre de répertorier toutes les sessions avec leurs différentes informations telles
+		que le jour, le temps pratiqué.
+		B - Le logiciel permettre l’ajout d’une nouvelle session avec ses différentes informations.
+		D - Le logiciel doit permettre de supprimer une session déjà enregistrée.
+
+	2.3 – Liste des sessions ayant atteints l’objectif fixé2
+		Le logiciel doit permettre d’identifier et d’afficher la liste par sport de toutes les sessions ayant satisfait
+		l’objectif à atteindre.
+
+	2.4 – Interfaces
+		Le logiciel doit contenir une ou des interfaces intuitives permettant à un utilisateur lambda d’utiliser
+		toutes ces fonctions sans coder et sans avoir besoin d‘activer l’onglet « développeur » et l’interface
+		Visual Basic.
+		L’utilisateur de l’application ne doit pas saisir des informations dans les cases du tableur Excel, tout
+		ajout d’information doit passer par un formulaire.
+		Le logiciel doit renvoyer les erreurs grâce aux boites de dialogue si jamais il en rencontre (par exemple
+		si l’utilisateur saisie une association avec nom déjà présent).
+
+	2.5 – Gestion des données
+		L’ensemble des données sera sauvegardé dans les feuilles Excel, pour que les modifications réalisées
+		soient sauvegardées.
+
+		Vous avez le choix :
+			• Tout est sauvegardé en mémoire et lors de l’ouverture du fichier les données sont chargées, et
+			lors de la fermeture les données sont écrites sur les feuilles.
+			• Les données sont systématiquement lues et écrites depuis les feuilles Excel
